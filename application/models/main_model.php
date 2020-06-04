@@ -16,8 +16,8 @@ class main_model extends CI_Model {
     function isDB(){
 
 
-        //$Instancia = $this->load->database('db_remota', TRUE);
-        $Instancia = $this->db;
+        $Instancia = $this->load->database('db_remota', TRUE);
+        //$Instancia = $this->db;
 
         return $Instancia;
 
