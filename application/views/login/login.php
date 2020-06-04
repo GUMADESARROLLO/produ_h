@@ -8,12 +8,12 @@
                 <form class="form" method="post" action="<?php echo base_url('index.php/acreditando')?>">
                     <div  class="row">
                         <div class="col s12 m12 ">
-                            <input type="text"  id="usuario" name="usuario"  placeholder="Usuario"class="validate" value="Admin">
+                            <input type="text"  id="usuario" name="usuario"  placeholder="Usuario"class="validate" value="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col s12 m12">
-                            <input type="password" id="password" name="password" placeholder="*******" class="validate" value="123456">
+                            <input type="password" id="password" name="password" placeholder="*******" class="validate" value="">
                         </div>
                     </div>
                     <div class="row" style="color: #B2B2B2; font-size: 10px">
